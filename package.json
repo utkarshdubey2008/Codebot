@@ -1,19 +1,18 @@
 {
-  "name": "telegram-bot-code-manager",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot to manage code snippets, send code via unique links, and provide admin features like stats and broadcasting.",
-  "main": "bot.js",
+  "description": "Telegram bot for code sharing",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node api/webhook.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.55.0",
-    "mongodb": "^4.5.0",
-    "dotenv": "^16.0.0"
+    "node-telegram-bot-api": "^0.56.0",
+    "mongodb": "^4.2.2",
+    "dotenv": "^10.0.0"
   },
-  "devDependencies": {},
   "engines": {
-    "node": ">=16.0.0"
+    "node": "14.x"
   },
   "author": "",
   "license": "ISC"
