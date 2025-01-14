@@ -7,7 +7,7 @@
     }
   ],
   "env": {
-    "BOT_TOKEN": "@bot-token",
+    "BOT_TOKEN": "@BOT_TOKEN",
     "MONGO_URI": "@mongo-uri",
     "VERCEL_URL": "https://your-vercel-app-url.vercel.app"
   }
